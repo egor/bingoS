@@ -1,0 +1,2 @@
+<p><a href="/basket">Корзина</a> <span id="basket-count">{BASKET_COUNT}</span> шт.  <span id="basket-summ">{BASKET_SUMM}</span> грн.</p>
+<p><a href="/order/" title="Оформить заказ">Оформить заказ</a></p>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /links.php
+Disallow: /test.php
+Disallow: /oplata-i-dostavka/oplata-garantiya-i-dostavka

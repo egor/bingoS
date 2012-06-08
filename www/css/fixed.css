@@ -1,0 +1,200 @@
+.block_posts p {margin: 0; padding: 0;}
+.description p {margin: 0; padding: 0;}
+
+.right_column #dialog{display: none;}
+.auth-form { font:12px/16px Arial, Tahoma, Verdana, Sans-Serif;color:#313131; }
+.auth-form img {border: 0;}
+.auth-form .ui-dialog-titlebar {display:none}
+.auth-form  p#colse {text-align: right; margin: 0; padding-top: 5px;}
+.auth-form  p#head {font-size: 18pt; margin: 0; padding: 0 25px 25px 25px; color: #000;}
+.auth-form  p.content {padding-left: 25px;  color:#888888; margin-bottom: -5px;}
+.auth-form  p#email input {margin-left: 7px;}
+.auth-form  p#forgot-password {margin-left: 80px;}
+.auth-form  p#forgot-password input#forgot-password {margin-left: 55px; width: 13px; height: 13px; border: 0;}
+.auth-form p#send {margin-left: 25px; margin-top: 25px; }
+.auth-form p#send a, .auth-form p#send a:active, .auth-form p#send a:hover {font-size: 16px; color: #688908; text-decoration: none;}
+.auth-form p#send a:hover {text-decoration: underline;}
+.auth-form p#send input { background: url(/img/sprite.gif) no-repeat scroll 0 -31px transparent; border: medium none; color: #FFFFFF; cursor: pointer; font: 17px/22px Arial, Tahoma; height: 34px;padding: 0 0 3px;width: 131px;
+margin-left: 105px;}
+.auth-form p#send input.button-hover {background:url(/img/sprite.gif) -141px -31px no-repeat;}
+.auth-form input {height: 30px; width: 265px;  border: 1px solid #b2b2b2;  padding-left: 10px; }
+
+.products_list .p_admin_row {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	font:12px Tahoma, Arial;
+	color:#757575;
+	float:left;
+	width:100%;
+	}
+
+.products_list .p_admin_row .p_item {
+        height: 25px;
+        background: #F7F7F7;
+        margin-top: 10px;
+        padding: 7px 0 0 0;
+	float:left;
+	}
+
+.products_list .p_admin_row .p_item span {
+	float:right;
+	font:14px Tahoma, Arial;
+	}
+
+.products_list .p_admin_row .p_item span a {
+	margin: 0 5px;
+	}
+
+.products_list.page .p_tobusket.admin .p_item {
+	margin-bottom:0;
+	}
+
+.products_list.page .p_admin_row .p_item {
+	margin-bottom:33px;
+	}
+
+.wrap_text .text ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	font-family:Arial;
+	line-height:1.2em;
+	font-size:13px;
+	}
+
+.text_table.admin_orders {
+        font-size: 12px;
+        }
+
+#conteiner #left_colum .nav li img {
+        margin-right: 5px;
+        }
+
+/* =Mics
+-----------------*/
+/*modal_window*/
+
+.wrap_modal_window {
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:1000;
+	background:url(/img/modal_window_bg.png) 0 0 repeat;
+	}
+
+.wrap_modal_window .modal_window {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-137px 0 0 -205px;
+	width:410px;
+	height:269px;
+	background-color:#FFF;
+	border-top:5px solid #FB9525;
+	text-align:left;
+	}
+
+.modal_window .close {
+	cursor:pointer;
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:15px;
+	height:15px;
+	background:url(/img/modal_window_ico_close.gif) 0 0 no-repeat;
+	}
+
+.modal_window .title {
+	font:24px Arial, Helvetica, sans-serif;
+	color:#232323;
+	float:left;
+	margin:19px 0 31px 35px;
+	}
+
+.modal_window form {
+	clear:left;
+	display:inline-block;
+	position:relative;
+	margin:0 0 0 38px;
+	text-align:left;
+	}
+
+.modal_window form .name {
+	float:left;
+	width:56px;
+	font:12px/24px Arial, Helvetica, sans-serif;
+	color:#878787;
+	}
+
+.modal_window form .text {
+	float:left;
+	width:261px;
+	height:16px;
+	margin:0 0 15px;
+	padding:3px 6px 2px;
+	border:1px solid #E3E3EB;
+	border-top:1px solid #AAADB2;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#232323;
+	}
+
+.modal_window form .remind {
+	float:left;
+	margin:4px 0 32px 56px;
+	width:278px;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#232323;
+	}
+
+.modal_window form .remind a {
+	float:left;
+	color:#232323;
+	text-decoration:underline;
+	}
+
+.modal_window form .remind a:active, .modal_window form .remind a:hover {
+	color:#EB6300;
+	}
+
+.modal_window form .remind label {
+	margin:2px 0 0;
+	float:right;
+	}
+
+.modal_window form .remind label input {
+	margin:0 7px 0 0;
+	}
+
+.modal_window form .save {
+	float:left;
+	margin:0 0 0 56px;
+	width:278px;
+	font:14px/24px Arial, Helvetica, sans-serif;
+	}
+
+.modal_window form .save a {
+	float:left;
+	color:#EB6300;
+	text-decoration:underline;
+	}
+
+.modal_window form .save a:active, .modal_window form .save a:hover {
+	color:#232323;
+	}
+
+.modal_window form .save .submit {
+	float:right;
+	cursor:pointer;
+	width:99px;
+	height:24px;
+	border:0 none;
+	background:url(/img/wodal_window_btn.gif) 0 0 no-repeat;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#575757;
+	}
+
+.modal_window form .save .submit:active, .modal_window form .save .submit:hover {
+	background-position:0 100%;
+	color:#232323;
+	}

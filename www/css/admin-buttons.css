@@ -1,0 +1,134 @@
+div.dell-button-hide {display: none;}
+table tr#tr-con-fields {display: none;}
+div.order_review table tr td { border: 0;}
+div.goods_list ul li div.expected {background: url(/img/goods-is-empty.gif); width: 202px; height: 27px; text-align: center; padding-top: 13px; margin-top: 7px;}
+
+div.akces_block ul li p a, div.akces_block ul li p a:visited img {margin-left: 4px;}
+div.product_block .akces_block div.detail {margin: 10px 10px 10px 0; text-align: right;}
+div.product_block .akces_block div.detail img {margin: 3px;}
+div.product_block .akces_block div.detail a.a-buy, div.product_block .akces_block a.a-buy:visited {color:#3D6C97; text-decoration: none;}
+
+div.product_block .desc div.expected {width: 282px; height: 31px; background: url('/img/availability_button.jpg'); text-align: center; padding-top: 10px; margin: 10px 0 10px 0;}
+
+div.akces_block ul li li div.expected {width:125px; height: 29px; text-align: center; margin-top: 10px; background: url('/img/availability_button_small2.jpg') #f1f1f1;   }
+div.akces_block ul li li div.expected p {padding: 3px 0 0 0; color: #727272; font-size: 12px; line-height: 0.9}
+
+
+table.admin-table th {font-weight: bold;}
+table.admin-table td {border: 0;}
+div.otziv_block .rate1 {position:absolute;top:13px;right:20px;}
+
+.gallery-images-list-body, div#dialog-tree {display: none;}
+
+div.div-uniq-url-fields input{width: 15px;}
+div.search_block, div.user-menu {padding:6px 0 10px 9px;width:231px;height:41px;background:url(/img/search_block.jpg) no-repeat;}
+div.user-menu {text-align: center; font: 18px Arial; color: #fff;}
+div.user-menu img{ padding: 4px 10px 0 0px; }
+div.search_block input {color:#969696;font:12px Arial;width:205px;height:15px;padding:3px 7px 3px 7px;background:#fff url(/img/input_search.gif) 0 -1px repeat-x;border:none;border-right:1px solid #dfdfdf;border-left:1px solid #dfdfdf;border-top:1px solid #9f9f9f;}
+div.clear {clear: both;}
+div.left_menu ul.ul-user-menu li img {padding: 0 8px;}
+div.left_menu ul.ul-user-menu {padding-bottom: 10px; }
+
+div.div-h1-buttons-admin  div p {margin: 0;}
+
+div.div-h1-admin {float: left; width: 420px; word-wrap: break-word;}
+div.news_list li p.plashka-admin-button, divp.plashka-admin-button  { padding: 10px 0 10px 10px; background: #F7F7F7; margin: 10px 0 0 0;}
+div.news_list li p.plashka-admin-button img {float: right; padding: 0 20px 0 0px; }
+
+div.goods_list ul li  p.plashka-admin-button {height: 25px; padding: 7px 0 0 5px;}
+
+div.goods_list ul li  p.plashka-admin-button img {float: right; padding: 0 10px 0 0px; }
+
+div.div-h1-buttons {display: none;}
+div.div-h1-buttons-admin {float: right;  text-align: right; height: 50px; background: #f7f7f7; }
+div.div-h1-buttons-admin div {float: right; text-align: center; margin: 9px 20px 7px 10px; position: relative; cursor: pointer;}
+div.div-h1-buttons-admin div div.h1-add {border: 1px solid; position: absolute; width: 80px; top: -18px; right: -40px; padding-top: 50px; z-index: 1000; opacity: 0.7; display:none;}
+div.div-h1-buttons-admin div div.h1-add p {padding: 5px; margin: 0; background: #000; color: #fff; text-align: left; }
+div.div-h1-buttons-admin div div.h1-add p a, div.div-h1-buttons-admin div div.h1-add p a:hover, div.div-h1-buttons-admin div div.h1-add p a:visited  { color: #fff; text-decoration: none;}
+div.div-h1-buttons-admin div div.h1-add p img {width: 16px; height: 15px; padding: 0; float: left;}
+div.div-h1-buttons-admin div div.h1-add p span {padding-left: 5px;}
+div.div-h1-buttons-admin div a, div.div-h1-buttons-admin div a:hover, div.div-h1-buttons-admin div a:visited {color: #777777; font: 11px Tahoma; }
+div.div-h1-buttons-admin div img {width: 16px; height: 16px;}
+
+
+p.plashka-admin-button{
+    background: none repeat scroll 0 0 #F7F7F7;
+    margin: 10px 0 0;
+    padding: 10px 0 10px 10px;
+    clear: both;
+    height: 13px;
+}
+
+p.plashka-admin-button img {
+    float: right;
+    padding: 0 20px 0 0;
+}
+
+/* ============= Admin form =============== */
+
+
+table.admin-table {
+    margin: 10px 0 15px;
+    width: 100%;
+}
+
+table.admin-table th {
+    border-bottom: 1px solid #979797;
+    color: #000000;
+    font-weight: normal;
+    padding: 10px 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+table.admin-table td {
+   
+    color: #000000;
+    padding: 10px 5px;
+    vertical-align: top;
+}
+
+
+
+ul.gallery-images-list {
+    list-style: none outside none;
+    marigin: 0;
+    padding: 0;
+}
+
+ul.gallery-images-list li {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    list-style: none outside none;
+    padding: 3px;
+}
+
+ul.gallery-images-list li table {
+    width: 100%;
+}
+
+ul.gallery-images-list li table td {
+    padding: 3px 5px;
+}
+
+ul.gallery-images-list li table td {
+    padding: 3px 5px;
+}
+
+ul.gallery-images-list li img {
+    border: 1px solid;
+}
+
+ul.gallery-images-list li table td p {
+    padding: 2px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+ul.gallery-images-list li input {
+    padding: 2px;
+    width: 140px;
+}
+tr.comment-info-block {
+    display: none;
+}
